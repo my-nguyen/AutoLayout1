@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0F2940E31D5518D400FD19BA /* GuessTheFlag.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GuessTheFlag.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0F2940E31D5518D400FD19BA /* AutoLayout1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayout1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F2940E61D5518D400FD19BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0F2940E81D5518D400FD19BA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		0F2940EB1D5518D400FD19BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		0F2940E41D5518D400FD19BA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				0F2940E31D5518D400FD19BA /* GuessTheFlag.app */,
+				0F2940E31D5518D400FD19BA /* AutoLayout1.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -67,9 +67,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		0F2940E21D5518D400FD19BA /* GuessTheFlag */ = {
+		0F2940E21D5518D400FD19BA /* AutoLayout1 */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 0F2940F51D5518D400FD19BA /* Build configuration list for PBXNativeTarget "GuessTheFlag" */;
+			buildConfigurationList = 0F2940F51D5518D400FD19BA /* Build configuration list for PBXNativeTarget "AutoLayout1" */;
 			buildPhases = (
 				0F2940DF1D5518D400FD19BA /* Sources */,
 				0F2940E01D5518D400FD19BA /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = GuessTheFlag;
+			name = AutoLayout1;
 			productName = GuessTheFlag;
-			productReference = 0F2940E31D5518D400FD19BA /* GuessTheFlag.app */;
+			productReference = 0F2940E31D5518D400FD19BA /* AutoLayout1.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -98,7 +98,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 0F2940DE1D5518D400FD19BA /* Build configuration list for PBXProject "GuessTheFlag" */;
+			buildConfigurationList = 0F2940DE1D5518D400FD19BA /* Build configuration list for PBXProject "AutoLayout1" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -111,7 +111,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				0F2940E21D5518D400FD19BA /* GuessTheFlag */,
+				0F2940E21D5518D400FD19BA /* AutoLayout1 */,
 			);
 		};
 /* End PBXProject section */
@@ -248,8 +248,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GuessTheFlag/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nguyen.GuessTheFlag;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nguyen.AutoLayout1;
+				PRODUCT_NAME = AutoLayout1;
 			};
 			name = Debug;
 		};
@@ -259,15 +259,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = GuessTheFlag/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.nguyen.GuessTheFlag;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.nguyen.AutoLayout1;
+				PRODUCT_NAME = AutoLayout1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		0F2940DE1D5518D400FD19BA /* Build configuration list for PBXProject "GuessTheFlag" */ = {
+		0F2940DE1D5518D400FD19BA /* Build configuration list for PBXProject "AutoLayout1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0F2940F31D5518D400FD19BA /* Debug */,
@@ -276,13 +276,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		0F2940F51D5518D400FD19BA /* Build configuration list for PBXNativeTarget "GuessTheFlag" */ = {
+		0F2940F51D5518D400FD19BA /* Build configuration list for PBXNativeTarget "AutoLayout1" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				0F2940F61D5518D400FD19BA /* Debug */,
 				0F2940F71D5518D400FD19BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
